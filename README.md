@@ -1,6 +1,6 @@
 # SLM Fine-Tuning with LoRA for Risk Scoring (Hands-on)
 
-A compact, **interview-ready** project showing how to fine-tune a **Small Language Model** (SLM) via **LoRA** to classify customer messages into risk triage labels:
+A compact project showing how to fine-tune a **Small Language Model** (SLM) via **LoRA** to classify customer messages into risk triage labels:
 **FRAUD, MERCHANT_ERROR, PASSWORD_RESET, INFO**. Includes **evaluation, inference, and a LogReg baseline**.
 
 > GPU recommended for LoRA. If you don't have one, run the baseline first.
@@ -63,7 +63,7 @@ slm-risk-finetune-lora/
 └─ requirements.txt
 ```
 
-## Interview talking points
+## Emphasize:
 - **Why SLM + LoRA?** Fast, cheap, controllable; ideal for structured tasks (classification/extraction) vs. general chat.
 - **Output contracts:** JSON schema enforces **predictable, auditable** outputs (tie to compliance).
 - **Ground truth & eval:** accuracy + **JSON validity rate**; can add **per-class recall** (e.g., prioritize FRAUD recall).
