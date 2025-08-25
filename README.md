@@ -74,3 +74,8 @@ slm-risk-finetune-lora/
 - Add **class weights** or focal loss for real-world imbalance.
 - Swap to an **instruction-tuned SLM** (e.g., TinyLlama, Qwen 0.5–1.8B) for stronger zero-shot.
 - Integrate with your **MLOps gates** (see Chapter 8): eval thresholds → staging → canary.
+- 
+
+This project supports my book available at: https://a.co/d/gHgzKdS
+<img width="1077" height="451" alt="Screen Shot 2025-08-24 at 23 51 07" src="https://github.com/user-attachments/assets/8b460b96-d128-422a-96aa-71dd7e2b035f" />
+
